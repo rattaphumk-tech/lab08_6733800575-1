@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+.badge {
+    font-size: 0.5em;
+    background: #eef2f5;
+    color: #555;
+    padding: 4px 8px;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e9ecef;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    color: #495057;
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.btn-primary { background-color: #0d6efd; color: #fff; }
+.btn-primary:hover { background-color: #0b5ed7; }
+
+.btn-warning { background-color: #ffc107; color: #000; }
+.btn-warning:hover { background-color: #ffca2c; }
+
+.btn-danger { background-color: #dc3545; color: #fff; }
+.btn-danger:hover { background-color: #bb2d3b; }
+
+.btn-secondary { background-color: #6c757d; color: #fff; }
+
+.btn-sm {
+    padding: 4px 10px;
+    font-size: 0.875rem;
+}
+
+.card {
+    background: #fdfdfd;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.text-center { text-align: center; }
